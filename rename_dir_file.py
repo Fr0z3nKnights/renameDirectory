@@ -17,7 +17,7 @@ class batAction(QTabWidget):
         super(batAction, self).__init__()
         self.tab1 = batCreatDir()
         self.tab2 = batModifydir()
-        self.setWindowTitle("批量文件夹工具 v1.0 ------河南省煤田地质局四队物探测绘研究院 版权所有®")
+        self.setWindowTitle("批量文件夹工具 v1.0 ------Fr0z3n版权所有®")
         self.addTab(self.tab1,"Tab 1")
         self.addTab(self.tab2,"Tab 2")
         self.setTabText(0,'批量创建新文件夹')
